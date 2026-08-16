@@ -1,0 +1,39 @@
+# UrbanSolver
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules
+frontend/node_modules
+frontend/package-lock.json
+frontend/package.json
+frontend/next.config.js
+frontend/tsconfig.json
+frontend/.next
+backend/.venv
+backend/.git
+backend/*.pyc
+backend/__pycache__
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
+docker-compose.*.yml
+
+# Backup files
+*.bak
+*.tmp
